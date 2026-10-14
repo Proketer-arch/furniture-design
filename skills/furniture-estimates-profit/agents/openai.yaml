@@ -1,0 +1,6 @@
+interface:
+  display_name: "Сметы и прибыль мебельных заказов"
+  short_description: "Себестоимость, варианты сметы и маржа мебельного заказа"
+  default_prompt: "Используй $furniture-estimates-profit, чтобы проверить смету, неизвестные цены и маржу заказа."
+policy:
+  allow_implicit_invocation: true

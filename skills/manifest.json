@@ -9,7 +9,8 @@
     "furniture-hardware-engineering",
     "sketchup-pro-2025-design",
     "bazis-furniture-engineering",
-    "layout-drafting-documentation"
+    "layout-drafting-documentation",
+    "furniture-estimates-profit"
   ],
   "files": [
     {
@@ -356,6 +357,31 @@
       "path": "skills/layout-drafting-documentation/references/standards-and-title-blocks.md",
       "sha256": "f5532b9766b35acbadca115ff9c1230141c061f2d407ad43e269d17ae9998e3f",
       "bytes": 8063
+    },
+    {
+      "path": "skills/furniture-estimates-profit/SKILL.md",
+      "sha256": "f1297672d3436d2fc32d21d8bd3a71f9db6988ba09e0776bea80b0dd737a497b",
+      "bytes": 8833
+    },
+    {
+      "path": "skills/furniture-estimates-profit/agents/openai.yaml",
+      "sha256": "51e2ffa702e56ef843b7850c7664c2566dfbdabb8bd0335ac69c35f546f1f6c6",
+      "bytes": 431
+    },
+    {
+      "path": "skills/furniture-estimates-profit/references/cost-model.md",
+      "sha256": "6509bbd0e864797545bcf4d39e485b0a0cd34e7441fe17f1ea55d1e7879a4b6f",
+      "bytes": 8681
+    },
+    {
+      "path": "skills/furniture-estimates-profit/references/pricing-margin.md",
+      "sha256": "8c2e0323a1ed0ef52d822b6c247e5b65cfd82d8aa528ed8321e5a934737a06cb",
+      "bytes": 8226
+    },
+    {
+      "path": "skills/furniture-estimates-profit/references/review-actuals.md",
+      "sha256": "402613973c45b4af49a3dbf65119c425a5db42c588bf794f3de8d12426830c78",
+      "bytes": 8718
     }
   ]
 }
