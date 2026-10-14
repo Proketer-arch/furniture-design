@@ -1,0 +1,361 @@
+{
+  "snapshot_date": "2026-10-14",
+  "skills": [
+    "interior-design",
+    "interior-decoration",
+    "furniture-design",
+    "furniture-engineering",
+    "cabinet-manufacturing",
+    "furniture-hardware-engineering",
+    "sketchup-pro-2025-design",
+    "bazis-furniture-engineering",
+    "layout-drafting-documentation"
+  ],
+  "files": [
+    {
+      "path": "skills/interior-design/SKILL.md",
+      "sha256": "891296f78dd01e9f60e0cea60904b46f1cd48bca65e30727c22db6ee90013d7a",
+      "bytes": 8846
+    },
+    {
+      "path": "skills/interior-design/agents/openai.yaml",
+      "sha256": "1b8a1ef088e16eeebff0ffe5fb1cfe60026209c60bb7672b5a3ca4ee4d9bba55",
+      "bytes": 427
+    },
+    {
+      "path": "skills/interior-design/references/deliverables.md",
+      "sha256": "9b99c931c9d05587aa0ea91387d138a5ebd6d93dbfefa538b2acef5b6f340a12",
+      "bytes": 4536
+    },
+    {
+      "path": "skills/interior-design/references/design-and-review.md",
+      "sha256": "07bb08a2761b088b5373225dced5bf8037e7d2504d3b33a1d2d37e91c062f769",
+      "bytes": 7746
+    },
+    {
+      "path": "skills/interior-design/references/planning.md",
+      "sha256": "b5a04f33c77fb19bf3940d806e00f9c605008491e07c3ac0eaaaccc1ed190d5f",
+      "bytes": 9708
+    },
+    {
+      "path": "skills/interior-decoration/SKILL.md",
+      "sha256": "df17cb5c115b2580b2ba5e4f8a518d7dcc558fa15b77145f720f4086ade9078e",
+      "bytes": 10634
+    },
+    {
+      "path": "skills/interior-decoration/agents/openai.yaml",
+      "sha256": "e46ebcee936780c07c85f2e72852e3c8b31c70c912497381731cf1aa3b3bb3c9",
+      "bytes": 441
+    },
+    {
+      "path": "skills/interior-decoration/references/art-objects-and-plants.md",
+      "sha256": "8231935afea3e60ceb54f027b9c9525e85019b1d80fc47887272a14df3966dd7",
+      "bytes": 10024
+    },
+    {
+      "path": "skills/interior-decoration/references/concept-and-composition.md",
+      "sha256": "3d40a1778917528b67569b36faf857fbd70a80b45d034b030d7ad62a771f7f3a",
+      "bytes": 9011
+    },
+    {
+      "path": "skills/interior-decoration/references/procurement-and-deliverables.md",
+      "sha256": "fccb255e7a20b3ad08027edbf05f90177db37d1d259e835c037ea3957f84b63e",
+      "bytes": 11960
+    },
+    {
+      "path": "skills/interior-decoration/references/textiles-rugs-and-light.md",
+      "sha256": "b0244c520ceaf315a7c23e8882852a66470ef19ae00a30b3b6b296d7285683a8",
+      "bytes": 10214
+    },
+    {
+      "path": "skills/furniture-design/SKILL.md",
+      "sha256": "650a8a24c7f55b60861c50759219c6604c9eb644cf3ccaa73c963ce4fa3b35e2",
+      "bytes": 7619
+    },
+    {
+      "path": "skills/furniture-design/agents/openai.yaml",
+      "sha256": "b97e69c0d349341f8913db90c2887b2bdbb32ff648c104d6c6a78c966a33e2f2",
+      "bytes": 423
+    },
+    {
+      "path": "skills/furniture-design/references/deliverables.md",
+      "sha256": "20124ec88d4fc9c0441de6c12cc9c1404744f4c7be7206bf06576b871f21e83a",
+      "bytes": 4619
+    },
+    {
+      "path": "skills/furniture-design/references/feasibility.md",
+      "sha256": "a999f38e1677b9ca06fcc1e2150d1832f89a9dcf55c61ba8dfc4f0b0ff08d508",
+      "bytes": 6463
+    },
+    {
+      "path": "skills/furniture-design/references/product-design.md",
+      "sha256": "731cbe81fdc79dfb1e6bbc242dcabda93fcd788f4dcda2d24f1e514e29c637f2",
+      "bytes": 7552
+    },
+    {
+      "path": "skills/furniture-engineering/SKILL.md",
+      "sha256": "3e50e352427ca9040d7ce02f7b45a29490d22f4a475013a8034c2ea98ea73939",
+      "bytes": 7817
+    },
+    {
+      "path": "skills/furniture-engineering/agents/openai.yaml",
+      "sha256": "f6f059a67dd018090fdba2b7542122a86964bb6d08e8914ca018a1538368a66f",
+      "bytes": 453
+    },
+    {
+      "path": "skills/furniture-engineering/references/construction-and-verification.md",
+      "sha256": "52ae0b7353da4dd6b4103faa3dc3962edee95f91d0b19e56280f6a63f357b61d",
+      "bytes": 8579
+    },
+    {
+      "path": "skills/furniture-engineering/references/deliverables.md",
+      "sha256": "cc77cd6b665190809eb3365111474a742b736e94425910753d8ae69f5a55472e",
+      "bytes": 5698
+    },
+    {
+      "path": "skills/furniture-engineering/references/geometry-and-calculations.md",
+      "sha256": "35a084b6909e7eee80b31f575e8b90e7b07cc0ade0f32cc14924254ca44c9e80",
+      "bytes": 11209
+    },
+    {
+      "path": "skills/cabinet-manufacturing/SKILL.md",
+      "sha256": "56018deb31ebe20bbf98aee921492d89c1b50e28b2c7a38c9738d9a01c0837bf",
+      "bytes": 7730
+    },
+    {
+      "path": "skills/cabinet-manufacturing/agents/openai.yaml",
+      "sha256": "0bc357042d45c8ebd8543542d9e0ee01031a55522c2a981ca1b94428a890b17f",
+      "bytes": 448
+    },
+    {
+      "path": "skills/cabinet-manufacturing/references/deliverables.md",
+      "sha256": "3bba169c1ac956afea6c3c1d4d9d7e015d6dcd3a5c3fc4a88c54a6f9b7ac0787",
+      "bytes": 4841
+    },
+    {
+      "path": "skills/cabinet-manufacturing/references/process-planning.md",
+      "sha256": "d276af0fa09c58aaaa084e1dc245c0936a4c955ba57fdf1542270ba4d19924a7",
+      "bytes": 9491
+    },
+    {
+      "path": "skills/cabinet-manufacturing/references/quality-and-diagnostics.md",
+      "sha256": "b5cd80c099047d8d78b9fde41c688671e28a85d7766a74aef84e32fc43d24602",
+      "bytes": 8381
+    },
+    {
+      "path": "skills/furniture-hardware-engineering/SKILL.md",
+      "sha256": "84220f4461f5d2953e51ecbd8fad83e1c762d38121ee13331cad2e4eaf923692",
+      "bytes": 11635
+    },
+    {
+      "path": "skills/furniture-hardware-engineering/agents/openai.yaml",
+      "sha256": "13e37c98d821072db30bb38a2162605757ea3063bf5158c1725c135ec817b026",
+      "bytes": 472
+    },
+    {
+      "path": "skills/furniture-hardware-engineering/references/application-advice.md",
+      "sha256": "4f9d6e32e775e684b8da85bbaa0f8f6eeb340af811058046cc576174b95a36d6",
+      "bytes": 10734
+    },
+    {
+      "path": "skills/furniture-hardware-engineering/references/catalog-selection.md",
+      "sha256": "08e9fabb11c8b7c9a76e53d5eedfca4f43fc4ac18056a7a0ac8b362b2766c621",
+      "bytes": 10234
+    },
+    {
+      "path": "skills/furniture-hardware-engineering/references/custom-engineering.md",
+      "sha256": "67199e07a00f61d60d81cf9d0bd7193368e439b43d1575c9cb529d997e0653f6",
+      "bytes": 9618
+    },
+    {
+      "path": "skills/furniture-hardware-engineering/references/deliverables.md",
+      "sha256": "00764fc1c5d60e7bb504455b450e4078a3d6cf1e574a96b3bb05f46424101810",
+      "bytes": 8166
+    },
+    {
+      "path": "skills/furniture-hardware-engineering/references/suppliers-and-pricing.md",
+      "sha256": "723bf307dc90fd35bdb657d9845ca74b741297fb1aabd5c1e5bd414dd75146f2",
+      "bytes": 11288
+    },
+    {
+      "path": "skills/sketchup-pro-2025-design/SKILL.md",
+      "sha256": "76b2eb2651562b3ec25509f1fe4d6bf8e80fa2c1a28d45199160c14b20796577",
+      "bytes": 8977
+    },
+    {
+      "path": "skills/sketchup-pro-2025-design/agents/openai.yaml",
+      "sha256": "fd4840189f32d8f038a2ff32344108160a75af54dddd21f5de953b2c5a6c0612",
+      "bytes": 430
+    },
+    {
+      "path": "skills/sketchup-pro-2025-design/references/materials-and-presentation.md",
+      "sha256": "dc060567030605839d830a54e0831537b2115c637be666431db72e0cc15c0dce",
+      "bytes": 9192
+    },
+    {
+      "path": "skills/sketchup-pro-2025-design/references/mcp-and-ruby.md",
+      "sha256": "d32698aff2b6c314a97b55f6c065f865eefd04ba42aa8c097c51755417bf3748",
+      "bytes": 10848
+    },
+    {
+      "path": "skills/sketchup-pro-2025-design/references/modeling-and-structure.md",
+      "sha256": "81450a57cc64adf9d9013fbb0d3b89fa63bfb3a6aeb0c472593b12534fa30365",
+      "bytes": 10832
+    },
+    {
+      "path": "skills/sketchup-pro-2025-design/references/qa-and-deliverables.md",
+      "sha256": "0a6b49e87208e6cf3785f1a5c3224f407ccf7d2c5c4dcb18aace7ceef31d4616",
+      "bytes": 10604
+    },
+    {
+      "path": "skills/sketchup-pro-2025-design/references/scenes-and-layout.md",
+      "sha256": "51b7d38589d628e5986eb794f6233318491a94754b582627b11b978949d922c8",
+      "bytes": 11049
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/SKILL.md",
+      "sha256": "9d3d6f8484eecbf9ad3182d5762dd23197fa12a6a6c7e38f30cfa119272eba9c",
+      "bytes": 11779
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/agents/openai.yaml",
+      "sha256": "83dcc2a435c706887e2908ea6b4f27ced9d37e051ecf6b6ace1e9364392f1b9a",
+      "bytes": 512
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/cloud-and-collaboration.md",
+      "sha256": "b58cea2b189cebbd454a4c4614ce5164529792de0a37b8ddfdc969453207116c",
+      "bytes": 8684
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/cnc-and-postprocessors.md",
+      "sha256": "8f1534065564a1791ecb07a017787adec55b7e14a991085b0d5c451f5022304e",
+      "bytes": 10366
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/cutting-labeling-and-packaging.md",
+      "sha256": "0e54c8fdce079868253adffea8a6ef46f9b555c7d88b80909b0146d6bbb443f0",
+      "bytes": 8890
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/ecosystem-and-environment.md",
+      "sha256": "04a55b9d669c6101dab92e90aa529133512ac7e986278ee2bdc4b9af42169f2e",
+      "bytes": 8908
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/estimates-sales-and-data-exchange.md",
+      "sha256": "91f35da0b3d674ef79645ad8a225c72b87ca26063313bc13e15471264c369f4f",
+      "bytes": 10052
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/materials-hardware-and-libraries.md",
+      "sha256": "13ddcf544f4fd128523ad43577f23d7eea9ad79ec855329f33889c770f8971d3",
+      "bytes": 8790
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/modeling-and-parametrics.md",
+      "sha256": "1ecdbdb0aed12091f4e31650b92f77511fa7c18d08e2e09f2fdab071af950e05",
+      "bytes": 9829
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/qa-deliverables-and-diagnostics.md",
+      "sha256": "937230a1dc9861bc85462d7b069efa3e9bf6f693a1fc8ab957409668687ea271",
+      "bytes": 12084
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/scripts-and-automation.md",
+      "sha256": "c845b574c13dbe1150d083336107cffa90192eba5e9477ff63c5a797960f50a4",
+      "bytes": 9825
+    },
+    {
+      "path": "skills/bazis-furniture-engineering/references/sources-and-version-matrix.md",
+      "sha256": "b12bcaa18deb8714f5ce0fd2b1da78646f68a7075d6e9149ac2d7256e500d2f5",
+      "bytes": 8165
+    },
+    {
+      "path": "skills/layout-drafting-documentation/SKILL.md",
+      "sha256": "6308d9257fdcddc8fe20ee7dc4fe6337c7bb2c57824cacf38ce2449294c18b05",
+      "bytes": 10174
+    },
+    {
+      "path": "skills/layout-drafting-documentation/agents/openai.yaml",
+      "sha256": "f3315318942676dfb20a0df9f1ea88f210fc7678eeb2c7c3574433f74eb5def5",
+      "bytes": 512
+    },
+    {
+      "path": "skills/layout-drafting-documentation/assets/finish-schedule.csv",
+      "sha256": "6d353d1174340ddca48f289e83b2ccc2fb2c73d369237e78451b1efe1028a3d5",
+      "bytes": 172
+    },
+    {
+      "path": "skills/layout-drafting-documentation/assets/furniture-schedule.csv",
+      "sha256": "3e6cec5486c147f0312d06928f553436462642914bac296007acd43359db52a8",
+      "bytes": 141
+    },
+    {
+      "path": "skills/layout-drafting-documentation/assets/parts-schedule.csv",
+      "sha256": "8da5d2ad45f77e49e74ced229f4da63223ef16d1a29c80439e9fd41d8f1a0bf7",
+      "bytes": 260
+    },
+    {
+      "path": "skills/layout-drafting-documentation/assets/room-schedule.csv",
+      "sha256": "6f6838af718f16e4f112b0e72cd8ca0ee427d4b0d3035cbf4c5c6092e8910e6b",
+      "bytes": 89
+    },
+    {
+      "path": "skills/layout-drafting-documentation/assets/sheet-register.csv",
+      "sha256": "4838e532b38754ccc7cda8464e6d3ac8f550ef29d4c1a6e9ba225b62728e7e56",
+      "bytes": 175
+    },
+    {
+      "path": "skills/layout-drafting-documentation/assets/template-specification.md",
+      "sha256": "3a2455d379ecdad2a40d555bef10e9bdc891667e14c768ce815fd3a2fcbce817",
+      "bytes": 4731
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/afabrik-drafting-profile.md",
+      "sha256": "ae460baa6fa45c50e9e9217c8e2652fe1ef4de93fdea3f6bb13130a6231ab1aa",
+      "bytes": 7529
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/dimensions-and-views.md",
+      "sha256": "54daefef905d828705eb55ad40fe11c76d0b6544efc134a86b7cbd3c523125a6",
+      "bytes": 7237
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/furniture-album.md",
+      "sha256": "66b99e1547422a916a2df593efd42e2808b7e72eaf6c587343bd6d39e7b7a17b",
+      "bytes": 9191
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/interior-album.md",
+      "sha256": "4ffebbba03a88c2fddfabada92989636a1938529e09dfe8b08079c4c3866b2dc",
+      "bytes": 8729
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/layout-workflow.md",
+      "sha256": "f9cdc7cf1cbe7259feb99c60b9fc4f9ffce8ed0cd52bc969e15e4a2ec3ceda93",
+      "bytes": 8426
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/official-sources.md",
+      "sha256": "5e746b04983c58ef0766a66cbd83230ee24d12767905bc43af91bbc3e57d320e",
+      "bytes": 5920
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/qa-and-release.md",
+      "sha256": "603ad027b12f0313321e67ff21c8c7b55acfc275a55efea6caebf745bbdc2d9f",
+      "bytes": 8416
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/schedules-and-data.md",
+      "sha256": "abfc22d38eb3324f6c6b10bab250c950d726e6e0daa0d7a6e6710e21fc3b7149",
+      "bytes": 7023
+    },
+    {
+      "path": "skills/layout-drafting-documentation/references/standards-and-title-blocks.md",
+      "sha256": "f5532b9766b35acbadca115ff9c1230141c061f2d407ad43e269d17ae9998e3f",
+      "bytes": 8063
+    }
+  ]
+}

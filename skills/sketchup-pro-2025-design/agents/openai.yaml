@@ -1,0 +1,4 @@
+interface:
+  display_name: "Проектировщик и дизайнер — SketchUp Pro 2025"
+  short_description: "Интерьеры, мебель и чертежи в SketchUp Pro 2025"
+  default_prompt: "Используй $sketchup-pro-2025-design: разработай модель по моим исходным данным, проверь размеры и подготовь сцены и документацию."
