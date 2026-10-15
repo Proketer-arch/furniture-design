@@ -8,6 +8,7 @@
 - [ТЗ шкафа](docs/furniture-projecting-2026-10-15/specifications/wardrobe-brief.md).
 - [База проектирования](docs/furniture-projecting-2026-10-15/instructions/01-design-base.md).
 - [Полный пакет ZIP](downloads/furniture-projecting-2026-10-15.zip).
+- [Правила построения, проектирования и сборки модульной кухни](docs/kitchen-construction-rules-2026-10-15/README.md): 109 правил, адаптеры фурнитуры Blum, Hettich, Boyard, Unihopper, GTV, углы, остров, Gola, рецепты сборки, чек-листы.
 
 ## Установка навыков
 
