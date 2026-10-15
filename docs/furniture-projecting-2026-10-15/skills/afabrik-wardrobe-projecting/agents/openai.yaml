@@ -1,0 +1,4 @@
+interface:
+  display_name: "Шкаф AFABRIK: проектирование"
+  short_description: "Бриф, корпус, двери и наполнение шкафа по базе AFABRIK"
+  default_prompt: "Используй $afabrik-wardrobe-projecting для подготовки ТЗ и проекта шкафа по базе AFABRIK."

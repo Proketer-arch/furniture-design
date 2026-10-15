@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-14",
+  "snapshot_date": "2026-10-15",
   "skills": [
     "interior-design",
     "interior-decoration",
@@ -10,7 +10,9 @@
     "sketchup-pro-2025-design",
     "bazis-furniture-engineering",
     "layout-drafting-documentation",
-    "furniture-estimates-profit"
+    "furniture-estimates-profit",
+    "afabrik-kitchen-projecting",
+    "afabrik-wardrobe-projecting"
   ],
   "files": [
     {
@@ -382,6 +384,86 @@
       "path": "skills/furniture-estimates-profit/references/review-actuals.md",
       "sha256": "402613973c45b4af49a3dbf65119c425a5db42c588bf794f3de8d12426830c78",
       "bytes": 8718
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/SKILL.md",
+      "sha256": "8a48dbcdf118ba96d4359d94bcc6547e13b8598efc65b89e2aa475b8553cf3f4",
+      "bytes": 7721
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/agents/openai.yaml",
+      "sha256": "3ecab3e1144fbf35a77c2e23a8f77aeedbfe1326394967f93f7408787e331d29",
+      "bytes": 343
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/assets/technical-brief.md",
+      "sha256": "0ada748f5c0fe5211f6483b31bef8f9fdeaa9c3843814dbcdbcc9c2eafb77e8e",
+      "bytes": 22015
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/clarifications.md",
+      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
+      "bytes": 5585
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/design-base.md",
+      "sha256": "4aff1840722c0cf602fa46c5328be0f13fac32f99576fd8c4180f0fd11b5497e",
+      "bytes": 14978
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/review-and-handoff.md",
+      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
+      "bytes": 4847
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/source-texts.md",
+      "sha256": "d6edb60d1bedc08d852bdd1ec447bcf12342e5b36cf843b9918396e2a2dc6c25",
+      "bytes": 20987
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/workflow.md",
+      "sha256": "fe62ed4ef71c4b34e99f1d3f6b4436863d3f05f64d4a88d5490ebfc3ca5a00e0",
+      "bytes": 8375
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/SKILL.md",
+      "sha256": "44973c3732630c960f660bd768068474415be40b9ccbabfd8f36ce52b5e9a289",
+      "bytes": 7357
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/agents/openai.yaml",
+      "sha256": "0bd166502ba7e8706f88cdb852a5ebc103edc4ac69f3432c251eb7cb8408bff0",
+      "bytes": 344
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/assets/technical-brief.md",
+      "sha256": "bfbf9f098def0a66b9e601919d4294979af3380de8c2ca25a7b9bf71415efcd9",
+      "bytes": 16758
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/clarifications.md",
+      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
+      "bytes": 5585
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/design-base.md",
+      "sha256": "4aff1840722c0cf602fa46c5328be0f13fac32f99576fd8c4180f0fd11b5497e",
+      "bytes": 14978
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/review-and-handoff.md",
+      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
+      "bytes": 4847
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/source-texts.md",
+      "sha256": "d6edb60d1bedc08d852bdd1ec447bcf12342e5b36cf843b9918396e2a2dc6c25",
+      "bytes": 20987
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/workflow.md",
+      "sha256": "1861c6cf7fb22af5ba41b2917f419e0ef558682eabd6781e08451a790c7c5836",
+      "bytes": 6209
     }
   ]
 }

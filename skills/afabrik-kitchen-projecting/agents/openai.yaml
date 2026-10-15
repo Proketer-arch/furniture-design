@@ -1,0 +1,4 @@
+interface:
+  display_name: "Кухня AFABRIK: проектирование"
+  short_description: "Бриф, планировка и конструкция кухни по базе AFABRIK"
+  default_prompt: "Используй $afabrik-kitchen-projecting для подготовки ТЗ и проекта кухни по базе AFABRIK."

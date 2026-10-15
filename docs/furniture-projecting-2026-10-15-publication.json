@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-15",
+  "source_bundle": "furniture-projecting-2026-10-15",
+  "baseline_commit": "a521517c9fe4c141ba50ebaadd5119f1b0c72352",
+  "bundle_files": 31,
+  "new_skill_files": 16,
+  "archive_files": 1,
+  "files": [
+    {
+      "path": "docs/furniture-projecting-2026-10-15/README.md",
+      "source": "furniture-projecting-2026-10-15/README.md",
+      "sha256": "76676888739a0b193303856a535977e165228656ac69b19f9b53608cda79af0d",
+      "bytes": 5630
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/SOURCE-MAP.md",
+      "source": "furniture-projecting-2026-10-15/SOURCE-MAP.md",
+      "sha256": "f2e90d95be42d1313addbcb4c629ae4daeb652e9bc5f080727facc14c41b05ea",
+      "bytes": 13126
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/VALIDATION.md",
+      "source": "furniture-projecting-2026-10-15/VALIDATION.md",
+      "sha256": "41e62755287eea6cad21b6fe091dc104fb6a20ece491a02c09639352a342665a",
+      "bytes": 6458
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/instructions/01-design-base.md",
+      "source": "furniture-projecting-2026-10-15/instructions/01-design-base.md",
+      "sha256": "e4bfb463d841bc7ecd1559aff233f37e667b885c1604035efd4e6b597824acd3",
+      "bytes": 14997
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/instructions/02-kitchen-workflow.md",
+      "source": "furniture-projecting-2026-10-15/instructions/02-kitchen-workflow.md",
+      "sha256": "bdb61826c690b5c11635495cfae70923860db2879faf606a1bb55752f877ed52",
+      "bytes": 8405
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/instructions/03-wardrobe-workflow.md",
+      "source": "furniture-projecting-2026-10-15/instructions/03-wardrobe-workflow.md",
+      "sha256": "e5339c5addffa6e9a8ac7f0e9db7d620ba884a016fed75058c80ed1390e0c4fd",
+      "bytes": 6240
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/instructions/04-review-and-handoff.md",
+      "source": "furniture-projecting-2026-10-15/instructions/04-review-and-handoff.md",
+      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
+      "bytes": 4847
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/SKILL.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/SKILL.md",
+      "sha256": "8a48dbcdf118ba96d4359d94bcc6547e13b8598efc65b89e2aa475b8553cf3f4",
+      "bytes": 7721
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/agents/openai.yaml",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/agents/openai.yaml",
+      "sha256": "3ecab3e1144fbf35a77c2e23a8f77aeedbfe1326394967f93f7408787e331d29",
+      "bytes": 343
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/assets/technical-brief.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/assets/technical-brief.md",
+      "sha256": "0ada748f5c0fe5211f6483b31bef8f9fdeaa9c3843814dbcdbcc9c2eafb77e8e",
+      "bytes": 22015
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/clarifications.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/clarifications.md",
+      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
+      "bytes": 5585
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/design-base.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/design-base.md",
+      "sha256": "4aff1840722c0cf602fa46c5328be0f13fac32f99576fd8c4180f0fd11b5497e",
+      "bytes": 14978
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/review-and-handoff.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/review-and-handoff.md",
+      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
+      "bytes": 4847
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/source-texts.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/source-texts.md",
+      "sha256": "d6edb60d1bedc08d852bdd1ec447bcf12342e5b36cf843b9918396e2a2dc6c25",
+      "bytes": 20987
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/workflow.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/workflow.md",
+      "sha256": "fe62ed4ef71c4b34e99f1d3f6b4436863d3f05f64d4a88d5490ebfc3ca5a00e0",
+      "bytes": 8375
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/SKILL.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/SKILL.md",
+      "sha256": "44973c3732630c960f660bd768068474415be40b9ccbabfd8f36ce52b5e9a289",
+      "bytes": 7357
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/agents/openai.yaml",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/agents/openai.yaml",
+      "sha256": "0bd166502ba7e8706f88cdb852a5ebc103edc4ac69f3432c251eb7cb8408bff0",
+      "bytes": 344
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/assets/technical-brief.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/assets/technical-brief.md",
+      "sha256": "bfbf9f098def0a66b9e601919d4294979af3380de8c2ca25a7b9bf71415efcd9",
+      "bytes": 16758
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/clarifications.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/clarifications.md",
+      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
+      "bytes": 5585
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/design-base.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/design-base.md",
+      "sha256": "4aff1840722c0cf602fa46c5328be0f13fac32f99576fd8c4180f0fd11b5497e",
+      "bytes": 14978
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/review-and-handoff.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/review-and-handoff.md",
+      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
+      "bytes": 4847
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/source-texts.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/source-texts.md",
+      "sha256": "d6edb60d1bedc08d852bdd1ec447bcf12342e5b36cf843b9918396e2a2dc6c25",
+      "bytes": 20987
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/workflow.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/workflow.md",
+      "sha256": "1861c6cf7fb22af5ba41b2917f419e0ef558682eabd6781e08451a790c7c5836",
+      "bytes": 6209
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/sources/S1-design-base.md",
+      "source": "furniture-projecting-2026-10-15/sources/S1-design-base.md",
+      "sha256": "b893dfad68b1c35eb8eadbd449f8ff2b84548aced5cc70548a925fdf22d39d09",
+      "bytes": 5011
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/sources/S2-kitchen-building.md",
+      "source": "furniture-projecting-2026-10-15/sources/S2-kitchen-building.md",
+      "sha256": "6c797f53bccca2f0f1ca03bd9cd2d1ed6bec8ec5b87efe1140fe997469abcc23",
+      "bytes": 3528
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/sources/S3-wardrobe-projecting.md",
+      "source": "furniture-projecting-2026-10-15/sources/S3-wardrobe-projecting.md",
+      "sha256": "8611b27aaf089885ca65fd8152d474f8dfddf9269abd84ccd627c7ae613052a7",
+      "bytes": 2236
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/sources/S4-wardrobe-building.md",
+      "source": "furniture-projecting-2026-10-15/sources/S4-wardrobe-building.md",
+      "sha256": "6b33f5680efccadaf6f11b44dfd29672cc90e10fb6f1be19c8d7c644657cacd7",
+      "bytes": 2302
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/sources/S5-kitchen-projecting.md",
+      "source": "furniture-projecting-2026-10-15/sources/S5-kitchen-projecting.md",
+      "sha256": "4f0034cca2b2dee6adbf5b85f8f3ac7a7e1d6f647998ceaee641044857f6f31e",
+      "bytes": 7039
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/specifications/clarifications.md",
+      "source": "furniture-projecting-2026-10-15/specifications/clarifications.md",
+      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
+      "bytes": 5585
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/specifications/kitchen-brief.md",
+      "source": "furniture-projecting-2026-10-15/specifications/kitchen-brief.md",
+      "sha256": "16e1053238b9d91e45602c7718c5e806fd770c24fca14f35dc894d6af9591218",
+      "bytes": 21998
+    },
+    {
+      "path": "docs/furniture-projecting-2026-10-15/specifications/wardrobe-brief.md",
+      "source": "furniture-projecting-2026-10-15/specifications/wardrobe-brief.md",
+      "sha256": "3932b1f24da5db182b03fa1586343194ad0048c307bb06d6706a0f74cfbbf982",
+      "bytes": 16755
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/SKILL.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/SKILL.md",
+      "sha256": "8a48dbcdf118ba96d4359d94bcc6547e13b8598efc65b89e2aa475b8553cf3f4",
+      "bytes": 7721
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/agents/openai.yaml",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/agents/openai.yaml",
+      "sha256": "3ecab3e1144fbf35a77c2e23a8f77aeedbfe1326394967f93f7408787e331d29",
+      "bytes": 343
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/assets/technical-brief.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/assets/technical-brief.md",
+      "sha256": "0ada748f5c0fe5211f6483b31bef8f9fdeaa9c3843814dbcdbcc9c2eafb77e8e",
+      "bytes": 22015
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/clarifications.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/clarifications.md",
+      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
+      "bytes": 5585
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/design-base.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/design-base.md",
+      "sha256": "4aff1840722c0cf602fa46c5328be0f13fac32f99576fd8c4180f0fd11b5497e",
+      "bytes": 14978
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/review-and-handoff.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/review-and-handoff.md",
+      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
+      "bytes": 4847
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/source-texts.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/source-texts.md",
+      "sha256": "d6edb60d1bedc08d852bdd1ec447bcf12342e5b36cf843b9918396e2a2dc6c25",
+      "bytes": 20987
+    },
+    {
+      "path": "skills/afabrik-kitchen-projecting/references/workflow.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-kitchen-projecting/references/workflow.md",
+      "sha256": "fe62ed4ef71c4b34e99f1d3f6b4436863d3f05f64d4a88d5490ebfc3ca5a00e0",
+      "bytes": 8375
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/SKILL.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/SKILL.md",
+      "sha256": "44973c3732630c960f660bd768068474415be40b9ccbabfd8f36ce52b5e9a289",
+      "bytes": 7357
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/agents/openai.yaml",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/agents/openai.yaml",
+      "sha256": "0bd166502ba7e8706f88cdb852a5ebc103edc4ac69f3432c251eb7cb8408bff0",
+      "bytes": 344
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/assets/technical-brief.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/assets/technical-brief.md",
+      "sha256": "bfbf9f098def0a66b9e601919d4294979af3380de8c2ca25a7b9bf71415efcd9",
+      "bytes": 16758
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/clarifications.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/clarifications.md",
+      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
+      "bytes": 5585
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/design-base.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/design-base.md",
+      "sha256": "4aff1840722c0cf602fa46c5328be0f13fac32f99576fd8c4180f0fd11b5497e",
+      "bytes": 14978
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/review-and-handoff.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/review-and-handoff.md",
+      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
+      "bytes": 4847
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/source-texts.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/source-texts.md",
+      "sha256": "d6edb60d1bedc08d852bdd1ec447bcf12342e5b36cf843b9918396e2a2dc6c25",
+      "bytes": 20987
+    },
+    {
+      "path": "skills/afabrik-wardrobe-projecting/references/workflow.md",
+      "source": "furniture-projecting-2026-10-15/skills/afabrik-wardrobe-projecting/references/workflow.md",
+      "sha256": "1861c6cf7fb22af5ba41b2917f419e0ef558682eabd6781e08451a790c7c5836",
+      "bytes": 6209
+    },
+    {
+      "path": "downloads/furniture-projecting-2026-10-15.zip",
+      "source": "furniture-projecting-2026-10-15.zip",
+      "sha256": "9a642a87140053de71a08f791eb689d1b5a546982ca738f70b2c84d5814eb47d",
+      "bytes": 99179
+    }
+  ]
+}
