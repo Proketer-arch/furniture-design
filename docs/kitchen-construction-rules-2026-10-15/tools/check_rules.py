@@ -25,7 +25,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-DOMAINS = ["DIM", "CAR", "FRN", "HNG", "DRW", "LFT", "MOD", "JNC", "ISL", "GLA", "LAY", "SUP"]
+DOMAINS = ["DIM", "CAR", "FRN", "HNG", "DRW", "LFT", "MOD", "JNC", "ISL", "GLA", "LAY", "SUP", "ASM"]
 TAGS = {"Н", "П", "И", "Р", "?"}
 REQUIRED = ["id", "title", "rule", "basis", "status", "src", "afabrik", "needs", "note"]
 errors = []

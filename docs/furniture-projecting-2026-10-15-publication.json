@@ -294,5 +294,7 @@
       "sha256": "9a642a87140053de71a08f791eb689d1b5a546982ca738f70b2c84d5814eb47d",
       "bytes": 99179
     }
-  ]
+  ],
+  "verification_ref": "069c61c28ea13fa4fb320ded717be4a2bd06b549",
+  "scope": "Historical publication snapshot from 2026-10-15; verify file bytes at verification_ref. Current skills are covered by skills/manifest.json."
 }

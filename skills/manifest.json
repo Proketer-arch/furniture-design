@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-15",
+  "snapshot_date": "2026-10-16",
   "skills": [
     "interior-design",
     "interior-decoration",
@@ -72,8 +72,8 @@
     },
     {
       "path": "skills/furniture-design/SKILL.md",
-      "sha256": "650a8a24c7f55b60861c50759219c6604c9eb644cf3ccaa73c963ce4fa3b35e2",
-      "bytes": 7619
+      "sha256": "e70f863f18d6dfd0fae49c3b4e5ba7ceddb5b6d5070ad82d11133ce76c4f2e01",
+      "bytes": 8063
     },
     {
       "path": "skills/furniture-design/agents/openai.yaml",
@@ -87,8 +87,8 @@
     },
     {
       "path": "skills/furniture-design/references/feasibility.md",
-      "sha256": "a999f38e1677b9ca06fcc1e2150d1832f89a9dcf55c61ba8dfc4f0b0ff08d508",
-      "bytes": 6463
+      "sha256": "638ce6597f75a0dcbd39bd32e8f0ba1138e9fff2ffe53d82ccf1621bcbb01d6d",
+      "bytes": 8788
     },
     {
       "path": "skills/furniture-design/references/product-design.md",
@@ -97,8 +97,8 @@
     },
     {
       "path": "skills/furniture-engineering/SKILL.md",
-      "sha256": "3e50e352427ca9040d7ce02f7b45a29490d22f4a475013a8034c2ea98ea73939",
-      "bytes": 7817
+      "sha256": "faa97ac447a1d19184cd61ae80095335e60c2dfe8de873719472e922c78a68ae",
+      "bytes": 8230
     },
     {
       "path": "skills/furniture-engineering/agents/openai.yaml",
@@ -107,8 +107,8 @@
     },
     {
       "path": "skills/furniture-engineering/references/construction-and-verification.md",
-      "sha256": "52ae0b7353da4dd6b4103faa3dc3962edee95f91d0b19e56280f6a63f357b61d",
-      "bytes": 8579
+      "sha256": "c0d8a0062494b7732d7001a93df1dfc4f369866cd4f478f7695fe8066c77bba8",
+      "bytes": 14012
     },
     {
       "path": "skills/furniture-engineering/references/deliverables.md",
@@ -182,8 +182,8 @@
     },
     {
       "path": "skills/sketchup-pro-2025-design/SKILL.md",
-      "sha256": "76b2eb2651562b3ec25509f1fe4d6bf8e80fa2c1a28d45199160c14b20796577",
-      "bytes": 8977
+      "sha256": "8924d08bd4b097fbfe95d485e6069bbd7097fadd9bfa0d20e02ea0ebc0d5de0b",
+      "bytes": 9471
     },
     {
       "path": "skills/sketchup-pro-2025-design/agents/openai.yaml",
@@ -207,8 +207,8 @@
     },
     {
       "path": "skills/sketchup-pro-2025-design/references/qa-and-deliverables.md",
-      "sha256": "0a6b49e87208e6cf3785f1a5c3224f407ccf7d2c5c4dcb18aace7ceef31d4616",
-      "bytes": 10604
+      "sha256": "2727971924273c90e86a6d04edbf950949c9a80f22683ef3f8bd2c93fe69aac6",
+      "bytes": 14795
     },
     {
       "path": "skills/sketchup-pro-2025-design/references/scenes-and-layout.md",
@@ -387,8 +387,8 @@
     },
     {
       "path": "skills/afabrik-kitchen-projecting/SKILL.md",
-      "sha256": "8a48dbcdf118ba96d4359d94bcc6547e13b8598efc65b89e2aa475b8553cf3f4",
-      "bytes": 7721
+      "sha256": "929d44ff88a3f385de0f529f3da7ddd45f314f806eb52b7502a78d306ad3543a",
+      "bytes": 8458
     },
     {
       "path": "skills/afabrik-kitchen-projecting/agents/openai.yaml",
@@ -412,8 +412,8 @@
     },
     {
       "path": "skills/afabrik-kitchen-projecting/references/review-and-handoff.md",
-      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
-      "bytes": 4847
+      "sha256": "2a6cdc58525cd946f5d670a60e78767068879befebfe2610b719002a7920509a",
+      "bytes": 10537
     },
     {
       "path": "skills/afabrik-kitchen-projecting/references/source-texts.md",
@@ -427,8 +427,8 @@
     },
     {
       "path": "skills/afabrik-wardrobe-projecting/SKILL.md",
-      "sha256": "44973c3732630c960f660bd768068474415be40b9ccbabfd8f36ce52b5e9a289",
-      "bytes": 7357
+      "sha256": "6673ddf03359475d8a20c5d7caedaa488bb0418f9b0eae3a6dc7fa9c8a4716e7",
+      "bytes": 7913
     },
     {
       "path": "skills/afabrik-wardrobe-projecting/agents/openai.yaml",
@@ -452,8 +452,8 @@
     },
     {
       "path": "skills/afabrik-wardrobe-projecting/references/review-and-handoff.md",
-      "sha256": "4acd0dd79f803dea17385ad58de9a9c5d980f01b712edaf96c30ef664bd6640e",
-      "bytes": 4847
+      "sha256": "aaa9b258e38018baea95b1b47c0ada617d6e9255f2cb77f26d9ec0d52f3a0038",
+      "bytes": 7701
     },
     {
       "path": "skills/afabrik-wardrobe-projecting/references/source-texts.md",
