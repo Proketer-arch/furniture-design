@@ -15,7 +15,8 @@
   7. все X-/D-/Q-идентификаторы из правил и текстов описаны в 13-conflicts-and-open-data.md;
   8. относительные ссылки между Markdown-файлами ведут на существующие файлы;
   9. rules-catalog.md соответствует rules.yaml (формируется tools/render_catalog.py);
- 10. таблица максимального NL в 04-drawers.md совпадает с расчётом.
+ 10. таблица максимального NL в 04-drawers.md совпадает с расчётом;
+ 11. таблицы LT_min Atira в rules.yaml и в скрипте совпадают.
 """
 import math
 import re
@@ -44,43 +45,62 @@ def afabrik_ok(ref):
 
 
 # ---------- таблица максимального NL ----------
-SERIES = {
-    "LEGRABOX": [270, 300, 350, 400, 450, 500, 550, 600, 650],
-    "TANDEMBOX": [270, 300, 350, 400, 450, 500, 550, 600, 650],
-    "Atira": [260, 300, 350, 420, 470, 520, 620],
-    "ArciTech": [270, 300, 350, 400, 450, 500, 550, 650],
-}
+STD_NL = [270, 300, 350, 400, 450, 500, 550, 600, 650]
+# Минимальная глубина корпуса Atira по каталогу (R-DRW-05): NL -> LT_min
+ATIRA_BOX = {260: 279, 300: 315, 350: 365, 420: 435, 470: 485, 520: 535, 620: 635}
+ATIRA_INNER = {260: 288, 300: 324, 350: 374, 420: 444, 470: 494, 520: 544, 620: 644}
+
+
+def plus(delta):
+    return lambda nl: nl + delta
+
+
+# (подпись, ряд NL, функция LT_min(NL)); ряд NL у Blum, Atira, ArciTech и DB9891 дан документами,
+# у MERIVOBOX, Grass и Unihopper шаги внутри диапазона приняты стандартными (проверять по таблице производителя)
 SYSTEMS = [
-    ("Blum LEGRABOX (Δ=3)", "LEGRABOX", 3),
-    ("Blum TANDEMBOX antaro (Δ=3)", "TANDEMBOX", 3),
-    ("Hettich Atira, ящик (Δ=15)", "Atira", 15),
-    ("Hettich Atira, внутр. ящик (Δ=24)", "Atira", 24),
-    ("Hettich ArciTech (Δ=21, консервативно)", "ArciTech", 21),
-    ("Hettich ArciTech (Δ=3, лучший случай)", "ArciTech", 3),
+    ("Blum LEGRABOX (Δ=3)", STD_NL, plus(3)),
+    ("Blum TANDEMBOX antaro (Δ=3)", STD_NL, plus(3)),
+    ("Blum MERIVOBOX, M (Δ=3)", [270, 300, 350, 400, 450, 500, 550, 600], plus(3)),
+    ("Hettich Atira, ящик (таблица каталога)", sorted(ATIRA_BOX), lambda nl: ATIRA_BOX[nl]),
+    ("Hettich Atira, внутр. ящик (таблица каталога)", sorted(ATIRA_INNER), lambda nl: ATIRA_INNER[nl]),
+    ("Hettich ArciTech, ящик (Δ=3)", [270, 300, 350, 400, 450, 500, 550, 650], plus(3)),
+    ("Hettich ArciTech, внутр. ящик (Δ=12)", [270, 300, 350, 400, 450, 500, 550, 650], plus(12)),
+    ("Hettich ArciTech, внутр. Push to open Silent (Δ=21)", [270, 300, 350, 400, 450, 500, 550, 650], plus(21)),
+    ("Grass Nova Pro Scala (Δ=3)", STD_NL, plus(3)),
+    ("Grass Nova Pro Scala, внутр. ящик (Δ=12)", STD_NL, plus(12)),
+    ("Unihopper Magic Box / POBOX (Δ=5)", [270, 300, 350, 400, 450, 500, 550], plus(5)),
+    ("Boyard DB9891 (Δ=3)", [400, 450, 500], plus(3)),
 ]
+DELTA_G = 27  # профиль Gola: ширина 26 + выступ 1 (R-GLA-03)
+# (подпись, D_корп, k_зад, δ_G)
 SCENARIOS = [
-    ("нижний 560, задняя накладная", 560, 0),
-    ("нижний 560, задняя в пазу", 560, 20),
-    ("Gola 575, задняя накладная", 575, 0),
-    ("Gola 575, задняя в пазу", 575, 20),
-    ("верхний 320, задняя накладная", 320, 0),
-    ("верхний 320, задняя в пазу", 320, 20),
+    ("нижний 560, задняя накладная", 560, 0, 0),
+    ("нижний 560, задняя в пазу", 560, 20, 0),
+    ("GOL 560, задняя накладная", 560, 0, DELTA_G),
+    ("GOL 560, задняя в пазу", 560, 20, DELTA_G),
+    ("верхний 320, задняя накладная", 320, 0, 0),
+    ("верхний 320, задняя в пазу", 320, 20, 0),
 ]
 
 
-def nl_max(series, delta, lt):
-    ok = [n for n in series if n + delta <= lt]
+def nl_max(nl_list, lt_func, lt):
+    ok = [n for n in nl_list if lt_func(n) <= lt]
     return max(ok) if ok else None
 
 
 def nl_table():
-    head = "| Система \\ Корпус | " + " | ".join(f"{n} (LT {d - k})" for n, d, k in SCENARIOS) + " |"
+    def head_cell(label, d, k, g):
+        lt = d - k - g
+        note = f"LT {d - k}" if not g else f"LT {d - k} − δ_G {g} = {lt}"
+        return f"{label} ({note})"
+
+    head = "| Система \\ Корпус | " + " | ".join(head_cell(*s) for s in SCENARIOS) + " |"
     sep = "|---|" + "---|" * len(SCENARIOS)
     rows = []
-    for label, key, delta in SYSTEMS:
+    for label, nl_list, lt_func in SYSTEMS:
         cells = []
-        for _, d, k in SCENARIOS:
-            v = nl_max(SERIES[key], delta, d - k)
+        for _, d, k, g in SCENARIOS:
+            v = nl_max(nl_list, lt_func, d - k - g)
             cells.append("—" if v is None else str(v))
         rows.append(f"| {label} | " + " | ".join(cells) + " |")
     return "\n".join([head, sep] + rows)
@@ -172,6 +192,15 @@ def main():
         err("04-drawers.md: нет блока nl-table")
     elif m.group(1).strip() != nl_table().strip():
         err("04-drawers.md: таблица NL не совпадает с расчётом (запустите --print-table)")
+
+    # таблицы LT_min Atira в rules.yaml и в скрипте совпадают
+    atira = next((r for r in rules if r["id"] == "R-DRW-05"), None)
+    if atira:
+        pr = atira.get("params", {})
+        for key, ref in (("LT_min_ящик", ATIRA_BOX), ("LT_min_внутр", ATIRA_INNER)):
+            got = {int(k): v for k, v in (pr.get(key) or {}).items()}
+            if got != ref:
+                err(f"R-DRW-05: {key} в rules.yaml не совпадает с таблицей скрипта")
 
     # сводка
     by_dom = {}
