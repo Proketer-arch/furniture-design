@@ -387,8 +387,8 @@
     },
     {
       "path": "skills/afabrik-kitchen-projecting/SKILL.md",
-      "sha256": "929d44ff88a3f385de0f529f3da7ddd45f314f806eb52b7502a78d306ad3543a",
-      "bytes": 8458
+      "sha256": "86bab7e5e797d00c29737bc63f45b3441e4b8d6bf74a24239ec96d217a8f2c69",
+      "bytes": 8776
     },
     {
       "path": "skills/afabrik-kitchen-projecting/agents/openai.yaml",
@@ -402,8 +402,8 @@
     },
     {
       "path": "skills/afabrik-kitchen-projecting/references/clarifications.md",
-      "sha256": "82a8f30ad4c5b9b400bfb2716372739a453e4ba08897810a26b1e78605557beb",
-      "bytes": 5585
+      "sha256": "5ff2d5e03f6ef20fe3f5099d78a53b78ddac31fd0814040cdc6802d53d4bf278",
+      "bytes": 5636
     },
     {
       "path": "skills/afabrik-kitchen-projecting/references/design-base.md",
@@ -422,8 +422,8 @@
     },
     {
       "path": "skills/afabrik-kitchen-projecting/references/workflow.md",
-      "sha256": "fe62ed4ef71c4b34e99f1d3f6b4436863d3f05f64d4a88d5490ebfc3ca5a00e0",
-      "bytes": 8375
+      "sha256": "472cefe5577fa274603aa7270fed02a1c5ea168ef1937febe2e0225d45ca9fda",
+      "bytes": 8516
     },
     {
       "path": "skills/afabrik-wardrobe-projecting/SKILL.md",
