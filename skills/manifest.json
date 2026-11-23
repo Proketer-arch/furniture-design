@@ -387,8 +387,8 @@
     },
     {
       "path": "skills/afabrik-kitchen-projecting/SKILL.md",
-      "sha256": "e03d79f5b333ddd61b3e1554f1f87e1bb822d94a5a22d1e693cf59b493d8aad0",
-      "bytes": 8966
+      "sha256": "19ae9fa82a2ae673a0b19397a4b3a011aed258977f23f4b4853c2dfd3e4cb57b",
+      "bytes": 9009
     },
     {
       "path": "skills/afabrik-kitchen-projecting/agents/openai.yaml",
@@ -402,8 +402,8 @@
     },
     {
       "path": "skills/afabrik-kitchen-projecting/references/clarifications.md",
-      "sha256": "548fb319a90bf1298d05587a9d950cefb11e2495b151d6b0e433b9127d2e6dc2",
-      "bytes": 5764
+      "sha256": "aa7840eb3017a46a466c96df0d6b3fec8175ca4d67b7e7c6c021791c85e7f0c0",
+      "bytes": 5807
     },
     {
       "path": "skills/afabrik-kitchen-projecting/references/design-base.md",
